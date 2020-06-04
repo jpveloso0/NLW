@@ -34,7 +34,7 @@
 
 form {
 
-    background-image: white;
+    background-color: white;
 
     margin: 80px auto;
     padding: 64px;
@@ -50,7 +50,7 @@ form h1{
 
 }
 
-forme fieldset {
+form fieldset {
     margin-top: 64px;
 
     border: 0;
@@ -87,7 +87,7 @@ form select {
     font-size: 16px;
     
     border-radius: 8px;
-    /* outline: none; */
+    
 }
 
 form select {
@@ -103,4 +103,26 @@ form label  {
 
 form .field-group .field + .field {
     margin-left: 24px;
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+
+    background-color: var(--primary-color);
+    border-radius: 8px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    margin-top: 40px;
+
+    transition: 400ms;
+}
+
+form button:hover{
+    background-color: #2fb86e;
 }
